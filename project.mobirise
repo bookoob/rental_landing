@@ -1,0 +1,459 @@
+{
+  "settings": {
+    "name": "국민도서관 대여광고 랜딩페이지",
+    "currentPage": "index.html",
+    "theme": {
+      "name": "directm",
+      "title": "DirectM",
+      "styling": {
+        "primaryColor": "#5aac98",
+        "secondaryColor": "#A25DAE",
+        "successColor": "#1E7C3A",
+        "infoColor": "#74a3c7",
+        "warningColor": "#FFD785",
+        "dangerColor": "#FF9685",
+        "titleFont": "Nanum Gothic",
+        "subtitleFont": "Nanum Gothic",
+        "textFont": "Nanum Gothic",
+        "isRoundedButtons": false,
+        "isAnimatedOnScroll": true,
+        "isScrollToTopButton": true
+      },
+      "additionalSetColors": []
+    },
+    "path": "@PROJECT_PATH@",
+    "versionFirst": "4.8.10",
+    "siteFonts": [
+      {
+        "css": "'Nanum Gothic', sans-serif",
+        "name": "Nanum Gothic",
+        "url": "https://fonts.googleapis.com/css?family=Nanum+Gothic:400,700,800"
+      }
+    ],
+    "favicon": "@PROJECT_PATH@/assets/images/bookoob-logo-140by140-128x128.png",
+    "noImageResize": "",
+    "uniqCompNum": 6,
+    "versionPublish": "4.8.10",
+    "screenshot": "screenshot.png"
+  },
+  "pages": {
+    "index.html": {
+      "settings": {
+        "main": true,
+        "title": "국민도서관 책꽂이 도서대여",
+        "meta_descr": "국민도서관 책꽂이는 비접촉 언택트 안심 온라인 도서관입니다. 한번에 15권을 60일간 택배로 편리하게 집에서 빌려보세요!",
+        "header_custom": "\n\t<meta name=\"apple-mobile-web-app-capable\" content=\"yes\" />\n\t<meta name=\"apple-mobile-web-app-status-bar-style\" content=\"black-translucent\" />\n\t<meta name=\"description\" content=\"공유경제 철학에 근간한 국민도서관 책꽂이는 세계 최초의 공유형 도서관으로서, 전국 어디든 (도서지방 제외) 60일간 최대 25권까지 왕복택배비 만으로 도서를 대여해주고 있으며, 도서관 서가를 개인들의 도서보관을 위한 공간으로 제공해 주고 전문적으로 책을 관리해 줌으로써, 많은 책으로 인해 공간의 부담을 느끼는 애서가들에게 매우 유용한 서비스로 자리잡고 있습니다.\" />\n\t<meta name=\"keywords\" content=\"책대여,책대여점,온라인 책대여,책대여  사이트,온라인 도서대여,도서대여,도서대여점,책정리,책정리법,책 정리 방법,도서정리,공유경제,온라인 도서관,국민도서관\" />\n\n\n<!--Start of Tawk.to Script-->\n<script type=\"text/javascript\">\nvar Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();\n(function(){\nvar s1=document.createElement(\"script\"),s0=document.getElementsByTagName(\"script\")[0];\ns1.async=true;\ns1.src='https://embed.tawk.to/56bb2a342fd271b630faf77a/default';\ns1.charset='UTF-8';\ns1.setAttribute('crossorigin','*');\ns0.parentNode.insertBefore(s1,s0);\n})();\n</script>\n<!--End of Tawk.to Script-->\n\n<!-- Facebook Pixel Code -->\n<script>\n  !function(f,b,e,v,n,t,s)\n  {if(f.fbq)return;n=f.fbq=function(){n.callMethod?\n  n.callMethod.apply(n,arguments):n.queue.push(arguments)};\n  if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';\n  n.queue=[];t=b.createElement(e);t.async=!0;\n  t.src=v;s=b.getElementsByTagName(e)[0];\n  s.parentNode.insertBefore(t,s)}(window, document,'script',\n  'https://connect.facebook.net/en_US/fbevents.js');\n  fbq('init', '2020985031461216');\n  fbq('track', 'PageView');\n</script>\n<noscript><img height=\"1\" width=\"1\" style=\"display:none\"\n  src=\"https://www.facebook.com/tr?id=2020985031461216&ev=PageView&noscript=1\"\n/></noscript>\n<!-- End Facebook Pixel Code -->\n",
+        "footer_custom": "",
+        "html_before": ""
+      },
+      "components": [
+        {
+          "_params": {
+            "showTitle": true,
+            "showText": true,
+            "showButtons": true,
+            "contentAlign": "center",
+            "showArrow": true,
+            "bgImageRadio": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/pauline-loroy-tv8pippy3rq-unsplash-2000x1333.jpg",
+            "parallax": false,
+            "bgColorRadio": false,
+            "bgColor": "#bdb39a",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=fwkKc6M60-0"
+            },
+            "overlay": true,
+            "overlayColor": "#264a54",
+            "overlayOpacity": "0.5"
+          },
+          "title": "<b>돈걱정 없는 독서생활<br>15권까지 대여비 무료!</b>",
+          "text": "온라인 공유도서관인 국민도서관 책꽂이의 15만권이 넘는 장서 가운데에서<br>읽고 싶은 책을 마음 껏 고르세요.&nbsp;한 번에 15권까지 2달간, 무료로 택배를 통해 빌려드려요.<br><br>",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-md btn-danger\" href=\"https://www.bookoob.co.kr\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\"><span class=\"mbri-share mbr-iconfont mbr-iconfont-btn\" style=\"color: rgb(255, 255, 253);\"></span>국민도서관 책꽂이로 이동 &nbsp;</a>",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "header4",
+          "_anchor": "header4-4",
+          "_styles": {
+            ".mbr-iconfont": {},
+            ".mbr-table-cell": {
+              "vertical-align": "middle"
+            },
+            ".heading-title": {
+              "color": "#ffd785"
+            }
+          }
+        },
+        {
+          "_styles": {
+            ".mbr-section-title, .mbr-section-subtitle": {
+              "margin-bottom": "1rem",
+              "color": "#fff"
+            },
+            ".mbr-iconfont": {},
+            ".mbr-table-cell": {
+              "vertical-align": "middle"
+            },
+            ".heading-title": {
+              "color": "#2d2d2d",
+              "font-size": "36px"
+            }
+          },
+          "_params": {
+            "showTitle": true,
+            "showText": true,
+            "showButtons": true,
+            "contentAlign": "left",
+            "paddingTop": "2",
+            "paddingBottom": "1",
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/content/content7.jpg",
+            "parallax": false,
+            "bgColorRadio": true,
+            "bgColor": "#bdb39a",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=fwkKc6M60-0"
+            },
+            "overlay": true,
+            "overlayColor": "#2d2d2d",
+            "overlayOpacity": 0.5
+          },
+          "title": "[체험담] 국민도서관 책꽂이에서 책 대여해서 읽기\n",
+          "text": "[출처] 국민도서관 책꽂이에서 책 대여해서 읽기. 대여사이트추천|작성자 별빛달빛의 이야기",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-white\" href=\"https://blog.naver.com/yuyulala/221398099848\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">체험담 블로그 읽어볼까요?</a>",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "content7",
+          "_anchor": "content7-5"
+        },
+        {
+          "_params": {
+            "paddingTop": 1,
+            "paddingBottom": 1,
+            "showHeading": false,
+            "showTitle": false,
+            "showText": false,
+            "showButtons": false,
+            "contentAlign": "left",
+            "columns": "4",
+            "showFeaturesImages": true,
+            "iconsBgColor": "@primaryColor",
+            "showFeaturesTitles": true,
+            "showFeaturesTexts": true,
+            "showFeaturesButtons": false,
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/header/02.jpg",
+            "parallax": false,
+            "bgColorRadio": true,
+            "bgColor": "#fffffd",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=fwkKc6M60-0"
+            },
+            "overlay": true,
+            "overlayColor": "#fffffd",
+            "overlayOpacity": 0.95
+          },
+          "title": "이렇게 쓰세요",
+          "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptates, sed iusto corrupti explicabo. Dignissimos, harum. Adipisci dolorem odit minima assumenda nostrum quam nihil, iusto, ad eligendi laudantium doloribus eius reiciendis.",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-primary\" href=\"https://mobirise.com\">GET STARTED</a>",
+          "media1": {
+            "iconFont": {
+              "active": true,
+              "class": "mbr-iconfont",
+              "name": "touch",
+              "link": "https://mobirise.com",
+              "size": 40,
+              "family": "MobiriseIcons"
+            }
+          },
+          "title1": "한번에 15권까지",
+          "subtitle1": "Awesome",
+          "text1": "돈걱정 없이 15권까지 한 번에 빌릴 수 있습니다. 20여만원 어치의 책을 무료로 빌려보세요!",
+          "button1": "<a data-app-btn=\"true\" class=\"btn btn-sm btn-primary\" href=\"https://mobirise.com\">Learn more</a>",
+          "media2": {
+            "iconFont": {
+              "active": true,
+              "class": "mbr-iconfont",
+              "name": "responsive",
+              "link": "https://mobirise.com",
+              "size": 40,
+              "family": "MobiriseIcons"
+            }
+          },
+          "title2": "대여기간은 60일!",
+          "subtitle2": "Awesome",
+          "text2": "한번 대여하면 60일동안 읽을 수 있습니다. 기간이 부족하면 30일 추가연장도 가능!&nbsp;",
+          "button2": "<a data-app-btn=\"true\" class=\"btn btn-sm btn-primary\" href=\"https://mobirise.com\">Learn more</a>",
+          "media3": {
+            "iconFont": {
+              "active": true,
+              "class": "mbr-iconfont",
+              "name": "setting",
+              "link": "https://mobirise.com",
+              "size": 40,
+              "family": "MobiriseIcons"
+            }
+          },
+          "title3": "대여와 반납은 택배로",
+          "subtitle3": "Awesome",
+          "text3": "전국 어디서든 택배로 받고, 반납도 사이트에서 버튼 한 번만 클릭하면 도서관에서 택배를 보내드립니다.",
+          "button3": "<a data-app-btn=\"true\" class=\"btn btn-sm btn-primary\" href=\"https://mobirise.com\">Learn more</a>",
+          "media4": {
+            "iconFont": {
+              "active": true,
+              "class": "mbr-iconfont",
+              "name": "hot-cup",
+              "link": "https://mobirise.com",
+              "size": 40,
+              "family": "MobiriseIcons"
+            }
+          },
+          "title4": "택배비만 듭니다",
+          "subtitle4": "Awesome",
+          "text4": "독서의 즐거움을 누리기 위해 당신에게 필요한 것은 다만 왕복택배비 뿐입니다.",
+          "button4": "<a data-app-btn=\"true\" class=\"btn btn-sm btn-primary\" href=\"https://mobirise.com\">Learn more</a>",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "features2",
+          "_anchor": "features2-5",
+          "_styles": {
+            ".mbr-iconfont": {
+              "color": "@primaryColor",
+              "border-color": "@primaryColor"
+            }
+          }
+        },
+        {
+          "_params": {
+            "showBullets": true,
+            "fullWidth": false,
+            "spacing": "1",
+            "paddingTop": "1",
+            "paddingBottom": "1",
+            "filterBgColor": false,
+            "bgColor": "#FFFFFF",
+            "showText": false,
+            "filter": false,
+            "images": [
+              {
+                "tags": "Responsive",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@PROJECT_PATH@/assets/images/-800x800.png",
+                "thumb": "@PROJECT_PATH@/assets/images/800x800-800x800.png",
+                "alt": "",
+                "caption": "Type caption here",
+                "active": false,
+                "title": ""
+              },
+              {
+                "tags": "Creative",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@PROJECT_PATH@/assets/images/2-1080x1080.png",
+                "thumb": "@PROJECT_PATH@/assets/images/2-1080x1080-800x800.png",
+                "alt": "",
+                "caption": "Type caption here",
+                "active": false,
+                "title": ""
+              },
+              {
+                "tags": "Animated",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@PROJECT_PATH@/assets/images/3-1080x1080.png",
+                "thumb": "@PROJECT_PATH@/assets/images/3-1080x1080-800x800.png",
+                "alt": "",
+                "caption": "Type caption here",
+                "active": false,
+                "title": ""
+              },
+              {
+                "tags": "Awesome",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@PROJECT_PATH@/assets/images/4-1080x1080.png",
+                "thumb": "@PROJECT_PATH@/assets/images/4-1080x1080-800x800.png",
+                "alt": "",
+                "caption": "Type caption here",
+                "active": false,
+                "title": ""
+              },
+              {
+                "tags": "Beautiful",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@PROJECT_PATH@/assets/images/5-1080x1080.png",
+                "thumb": "@PROJECT_PATH@/assets/images/5-1080x1080-800x800.png",
+                "alt": "",
+                "caption": "Type caption here",
+                "active": false,
+                "title": ""
+              },
+              {
+                "tags": "Responsive",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@PROJECT_PATH@/assets/images/6-1080x1080.png",
+                "thumb": "@PROJECT_PATH@/assets/images/6-1080x1080-800x800.png",
+                "alt": "",
+                "caption": "Type caption here",
+                "active": false,
+                "title": ""
+              },
+              {
+                "tags": "Responsive",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@PROJECT_PATH@/assets/images/2-1-1080x1080.png",
+                "thumb": "@PROJECT_PATH@/assets/images/2-1-1080x1080-800x800.png",
+                "alt": "",
+                "caption": "Type caption here",
+                "active": false,
+                "title": ""
+              },
+              {
+                "tags": "Responsive",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@PROJECT_PATH@/assets/images/3-1-1080x1080.png",
+                "thumb": "@PROJECT_PATH@/assets/images/3-1-1080x1080-800x800.png",
+                "alt": "",
+                "caption": "Type caption here",
+                "active": true,
+                "title": ""
+              }
+            ]
+          },
+          "articleLayout": false,
+          "arrowleft": "<img src=\"@PROJECT_PATH@/assets/images/arrowleft.png\">",
+          "arrowright": "<img src=\"@PROJECT_PATH@/assets/images/arrowright.png\">",
+          "allItem": "All",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "gallery1",
+          "_anchor": "gallery1-4"
+        },
+        {
+          "_styles": {
+            ".count": {
+              "color": "#74a3c7"
+            }
+          },
+          "_params": {
+            "countersColor": "#74a3c7",
+            "showTitles": true,
+            "paddingTop": 1,
+            "paddingBottom": 1,
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/counters/01.jpg",
+            "parallax": false,
+            "bgColorRadio": true,
+            "containerColor1": "#f7f7f7",
+            "containerColor2": "#f0f0f0",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=fwkKc6M60-0"
+            },
+            "overlay": true,
+            "overlayColor": "#fff",
+            "overlayOpacity": 0.75
+          },
+          "title1": "총 장서수",
+          "title2": "총 대여횟수",
+          "title3": "총 대여권수",
+          "title4": "Videos",
+          "subtitle1": "subtitle",
+          "subtitle2": "subtitle",
+          "subtitle3": "subtitle",
+          "subtitle4": "subtitle",
+          "number1": "151555",
+          "number2": "13066",
+          "number3": "110142",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "counters1",
+          "_anchor": "counters1-7"
+        },
+        {
+          "_params": {
+            "paddingTop": "2",
+            "paddingBottom": "2",
+            "bgColor": "#ffffff"
+          },
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-danger\" href=\"https://www.bookoob.co.kr\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">국민도서관 책꽂이 사이트로</a> ",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "buttons1",
+          "_anchor": "buttons1-8"
+        },
+        {
+          "_params": {
+            "paddingTop": 1,
+            "paddingBottom": 1,
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/header/01.jpg",
+            "parallax": false,
+            "bgColorRadio": true,
+            "bgColor": "#fff",
+            "overlay": true,
+            "overlayColor": "#fff",
+            "overlayOpacity": 0.9
+          },
+          "text1": "<a href=\"mailto:clients@bookoob.co.kr\">clients@bookoob.co.kr</a>",
+          "text2": "031 906 1587",
+          "title1": "국민도서관 책꽂이 상담전화",
+          "title2": "문의 이메일",
+          "title3": "도움이 필요하세요?",
+          "button": "<a data-app-btn=\"true\" class=\"btn btn-info\" href=\"tel:82-31-906-1587\" data-toolbar=\"-mbrBtnMove\">Call us</a>",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "footer3",
+          "_anchor": "footer3-9"
+        },
+        {
+          "_styles": {
+            "p": {
+              "color": "#000"
+            }
+          },
+          "_params": {
+            "paddingTop": 2,
+            "paddingBottom": 2,
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/header/01.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#fff",
+            "overlay": true,
+            "overlayColor": "#444444",
+            "overlayOpacity": 0.8
+          },
+          "text": "Copyright (c) 2014~2020 (주)보리떡광주리-국민도서관 책꽂이",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "footer4",
+          "_anchor": "footer4-a"
+        }
+      ]
+    }
+  }
+}
