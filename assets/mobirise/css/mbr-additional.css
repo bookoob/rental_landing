@@ -521,6 +521,10 @@ a:hover {
 #header4-4 .heading-title {
   color: #ffd785;
 }
+#features2-5 .mbr-iconfont {
+  color: #5aac98;
+  border-color: #5aac98;
+}
 #content7-5 .mbr-section-title,
 #content7-5 .mbr-section-subtitle {
   margin-bottom: 1rem;
@@ -536,10 +540,6 @@ a:hover {
 #content7-5 .heading-title {
   color: #2d2d2d;
   font-size: 36px;
-}
-#features2-5 .mbr-iconfont {
-  color: #5aac98;
-  border-color: #5aac98;
 }
 #counters1-7 .count {
   color: #74a3c7;

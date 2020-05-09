@@ -50,24 +50,27 @@
         {
           "_params": {
             "showTitle": true,
-            "showText": true,
+            "showText": false,
             "showButtons": true,
-            "contentAlign": "center",
+            "contentAlign": "left",
             "showArrow": true,
-            "bgImageRadio": true,
+            "bgImageRadio": false,
             "bgImage": "@PROJECT_PATH@/assets/images/pauline-loroy-tv8pippy3rq-unsplash-2000x1333.jpg",
             "parallax": false,
             "bgColorRadio": false,
             "bgColor": "#bdb39a",
-            "bgVideoRadio": false,
+            "bgVideoRadio": true,
             "bgVideo": {
-              "url": "https://www.youtube.com/watch?v=fwkKc6M60-0"
+              "url": "https://www.youtube.com/embed/WItepfrx6Pg?rel=0&amp;showinfo=0&autoplay=0&loop=0",
+              "rawUrl": "https://youtu.be/WItepfrx6Pg",
+              "width": 1280,
+              "height": 720
             },
             "overlay": true,
-            "overlayColor": "#264a54",
+            "overlayColor": "#424242",
             "overlayOpacity": "0.5"
           },
-          "title": "<b>돈걱정 없는 독서생활<br>15권까지 대여비 무료!</b>",
+          "title": "<b>돈걱정 없는</b><br><b> 독서생활<br>이제 당신도!</b>",
           "text": "온라인 공유도서관인 국민도서관 책꽂이의 15만권이 넘는 장서 가운데에서<br>읽고 싶은 책을 마음 껏 고르세요.&nbsp;한 번에 15권까지 2달간, 무료로 택배를 통해 빌려드려요.<br><br>",
           "buttons": "<a data-app-btn=\"true\" class=\"btn btn-md btn-danger\" href=\"https://www.bookoob.co.kr\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\"><span class=\"mbri-share mbr-iconfont mbr-iconfont-btn\" style=\"color: rgb(255, 255, 253);\"></span>국민도서관 책꽂이로 이동 &nbsp;</a>",
           "_tags": [
@@ -82,6 +85,105 @@
             },
             ".heading-title": {
               "color": "#ffd785"
+            }
+          }
+        },
+        {
+          "_params": {
+            "paddingTop": 1,
+            "paddingBottom": 1,
+            "showHeading": false,
+            "showTitle": false,
+            "showText": false,
+            "showButtons": false,
+            "contentAlign": "left",
+            "columns": "4",
+            "showFeaturesImages": true,
+            "iconsBgColor": "@primaryColor",
+            "showFeaturesTitles": true,
+            "showFeaturesTexts": true,
+            "showFeaturesButtons": false,
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/header/02.jpg",
+            "parallax": false,
+            "bgColorRadio": true,
+            "bgColor": "#fffffd",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=fwkKc6M60-0"
+            },
+            "overlay": true,
+            "overlayColor": "#fffffd",
+            "overlayOpacity": 0.95
+          },
+          "title": "이렇게 쓰세요",
+          "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptates, sed iusto corrupti explicabo. Dignissimos, harum. Adipisci dolorem odit minima assumenda nostrum quam nihil, iusto, ad eligendi laudantium doloribus eius reiciendis.",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-primary\" href=\"https://mobirise.com\">GET STARTED</a>",
+          "media1": {
+            "iconFont": {
+              "active": true,
+              "class": "mbr-iconfont",
+              "name": "touch",
+              "link": "https://mobirise.com",
+              "size": 40,
+              "family": "MobiriseIcons"
+            }
+          },
+          "title1": "한번에 15권까지",
+          "subtitle1": "Awesome",
+          "text1": "돈걱정 없이 15권까지 한 번에 빌릴 수 있습니다. <b>장서는 무료 15만권! </b>20여만원 어치의 책을 무료로 빌려보세요!",
+          "button1": "<a data-app-btn=\"true\" class=\"btn btn-sm btn-primary\" href=\"https://mobirise.com\">Learn more</a>",
+          "media2": {
+            "iconFont": {
+              "active": true,
+              "class": "mbr-iconfont",
+              "name": "responsive",
+              "link": "https://mobirise.com",
+              "size": 40,
+              "family": "MobiriseIcons"
+            }
+          },
+          "title2": "대여기간은 60일!",
+          "subtitle2": "Awesome",
+          "text2": "한번 대여하면 60일동안 읽을 수 있습니다. 기간이 부족하면 30일 추가연장도 가능!&nbsp;",
+          "button2": "<a data-app-btn=\"true\" class=\"btn btn-sm btn-primary\" href=\"https://mobirise.com\">Learn more</a>",
+          "media3": {
+            "iconFont": {
+              "active": true,
+              "class": "mbr-iconfont",
+              "name": "setting",
+              "link": "https://mobirise.com",
+              "size": 40,
+              "family": "MobiriseIcons"
+            }
+          },
+          "title3": "대여와 반납은 택배로",
+          "subtitle3": "Awesome",
+          "text3": "전국 어디서든 택배로 받고, 반납도 사이트에서 버튼 한 번만 클릭하면 도서관에서 택배를 보내드립니다.",
+          "button3": "<a data-app-btn=\"true\" class=\"btn btn-sm btn-primary\" href=\"https://mobirise.com\">Learn more</a>",
+          "media4": {
+            "iconFont": {
+              "active": true,
+              "class": "mbr-iconfont",
+              "name": "hot-cup",
+              "link": "https://mobirise.com",
+              "size": 40,
+              "family": "MobiriseIcons"
+            }
+          },
+          "title4": "택배비만 듭니다",
+          "subtitle4": "Awesome",
+          "text4": "<b>대여료는 무료!</b> 독서의 즐거움을 누리기 위해 당신에게 필요한 것은 다만 왕복택배비 뿐입니다.",
+          "button4": "<a data-app-btn=\"true\" class=\"btn btn-sm btn-primary\" href=\"https://mobirise.com\">Learn more</a>",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "features2",
+          "_anchor": "features2-5",
+          "_styles": {
+            ".mbr-iconfont": {
+              "color": "@primaryColor",
+              "border-color": "@primaryColor"
             }
           }
         },
@@ -128,105 +230,6 @@
           ],
           "_name": "content7",
           "_anchor": "content7-5"
-        },
-        {
-          "_params": {
-            "paddingTop": 1,
-            "paddingBottom": 1,
-            "showHeading": false,
-            "showTitle": false,
-            "showText": false,
-            "showButtons": false,
-            "contentAlign": "left",
-            "columns": "4",
-            "showFeaturesImages": true,
-            "iconsBgColor": "@primaryColor",
-            "showFeaturesTitles": true,
-            "showFeaturesTexts": true,
-            "showFeaturesButtons": false,
-            "bgImageRadio": false,
-            "bgImage": "@THEME_PATH@/components/_images/header/02.jpg",
-            "parallax": false,
-            "bgColorRadio": true,
-            "bgColor": "#fffffd",
-            "bgVideoRadio": false,
-            "bgVideo": {
-              "url": "http://www.youtube.com/watch?v=fwkKc6M60-0"
-            },
-            "overlay": true,
-            "overlayColor": "#fffffd",
-            "overlayOpacity": 0.95
-          },
-          "title": "이렇게 쓰세요",
-          "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptates, sed iusto corrupti explicabo. Dignissimos, harum. Adipisci dolorem odit minima assumenda nostrum quam nihil, iusto, ad eligendi laudantium doloribus eius reiciendis.",
-          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-primary\" href=\"https://mobirise.com\">GET STARTED</a>",
-          "media1": {
-            "iconFont": {
-              "active": true,
-              "class": "mbr-iconfont",
-              "name": "touch",
-              "link": "https://mobirise.com",
-              "size": 40,
-              "family": "MobiriseIcons"
-            }
-          },
-          "title1": "한번에 15권까지",
-          "subtitle1": "Awesome",
-          "text1": "돈걱정 없이 15권까지 한 번에 빌릴 수 있습니다. 20여만원 어치의 책을 무료로 빌려보세요!",
-          "button1": "<a data-app-btn=\"true\" class=\"btn btn-sm btn-primary\" href=\"https://mobirise.com\">Learn more</a>",
-          "media2": {
-            "iconFont": {
-              "active": true,
-              "class": "mbr-iconfont",
-              "name": "responsive",
-              "link": "https://mobirise.com",
-              "size": 40,
-              "family": "MobiriseIcons"
-            }
-          },
-          "title2": "대여기간은 60일!",
-          "subtitle2": "Awesome",
-          "text2": "한번 대여하면 60일동안 읽을 수 있습니다. 기간이 부족하면 30일 추가연장도 가능!&nbsp;",
-          "button2": "<a data-app-btn=\"true\" class=\"btn btn-sm btn-primary\" href=\"https://mobirise.com\">Learn more</a>",
-          "media3": {
-            "iconFont": {
-              "active": true,
-              "class": "mbr-iconfont",
-              "name": "setting",
-              "link": "https://mobirise.com",
-              "size": 40,
-              "family": "MobiriseIcons"
-            }
-          },
-          "title3": "대여와 반납은 택배로",
-          "subtitle3": "Awesome",
-          "text3": "전국 어디서든 택배로 받고, 반납도 사이트에서 버튼 한 번만 클릭하면 도서관에서 택배를 보내드립니다.",
-          "button3": "<a data-app-btn=\"true\" class=\"btn btn-sm btn-primary\" href=\"https://mobirise.com\">Learn more</a>",
-          "media4": {
-            "iconFont": {
-              "active": true,
-              "class": "mbr-iconfont",
-              "name": "hot-cup",
-              "link": "https://mobirise.com",
-              "size": 40,
-              "family": "MobiriseIcons"
-            }
-          },
-          "title4": "택배비만 듭니다",
-          "subtitle4": "Awesome",
-          "text4": "독서의 즐거움을 누리기 위해 당신에게 필요한 것은 다만 왕복택배비 뿐입니다.",
-          "button4": "<a data-app-btn=\"true\" class=\"btn btn-sm btn-primary\" href=\"https://mobirise.com\">Learn more</a>",
-          "_tags": [
-            "Theme"
-          ],
-          "_name": "features2",
-          "_anchor": "features2-5",
-          "_styles": {
-            ".mbr-iconfont": {
-              "color": "@primaryColor",
-              "border-color": "@primaryColor"
-            }
-          }
         },
         {
           "_params": {
